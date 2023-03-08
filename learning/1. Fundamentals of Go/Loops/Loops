@@ -1,0 +1,67 @@
+1.for loop:
+
+It is similar that we use in other programming languages like C, C++, Java, C#, etc.
+
+Syntax:
+
+for initialization; condition; post{
+       // statements....
+}
+
+2.For loop as Infinite Loop: 
+
+A for loop is also used as an infinite loop by removing all the three expressions from the for loop. When the user did not write condition statement in for loop it means the condition statement is true and the loop goes into an infinite loop.
+
+Syntax:
+
+for{
+     // Statement...
+}
+
+3. for loop as while Loop:
+
+ A for loop can also work as a while loop. This loop is executed until the given condition is true. When the value of the given condition is false the loop ends.
+
+Syntax:
+
+for condition{
+    // statement..
+}
+
+4.range in for loop: 
+
+You can also use the range in the for loop.
+
+Syntax:
+
+for i, j:= range rvariable{
+   // statement..
+}
+
+5. Using for loop for strings: 
+
+A for loop can iterate over the Unicode code point for a string.
+
+Syntax:
+
+for index, chr:= range str{
+     // Statement..
+}
+
+6. For Maps: 
+A for loop can iterate over the key and value pairs of the map.
+
+Syntax:
+
+for key, value := range map { 
+     // Statement.. 
+}
+
+7.For Channel: 
+A for loop can iterate over the sequential values sent on the channel until it closed.
+
+Syntax:
+
+for item := range Chnl { 
+     // statements..
+}
